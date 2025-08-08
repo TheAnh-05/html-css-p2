@@ -433,10 +433,6 @@ a {
     flex-shrink: 0;
 }
 
-.info {
-    width: 33%;
-}
-
 .feedback .feedback-item .avatar {
     width: 72px;
     height: 72px;
@@ -478,6 +474,10 @@ a {
 .feedback-item .dot.active {
     background: var(--color-primary);
     cursor: default;
+}
+
+.feedback .info {
+    width: 34%;
 }
 
 .feedback .content {
